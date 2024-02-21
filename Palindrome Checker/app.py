@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('Palindrome Checker/index.html')
 
 @app.route('/check_palindrome', methods=['POST'])
 def check_palindrome():
